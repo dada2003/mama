@@ -1,0 +1,27 @@
+body{
+    background-color: bisque;
+}
+.container{
+    min-height: 100vh;
+    background-color: darkgray;
+    margin: 0 auto;
+    width: 1123px;
+}
+.title{
+    text-transform: uppercase;
+    text-align: center;
+}
+.dictionary{
+    background-color: darkcyan;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+
+}
+.dictionary__item{
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    float: right;
+    border:2px solid black;
+}
